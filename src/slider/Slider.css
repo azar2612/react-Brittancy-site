@@ -1,0 +1,38 @@
+.slider-section {
+  height: 650px;
+  background: burlywood;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid {
+  padding: 20px;
+}
+.text {
+  color: white;
+  text-align: center;
+  transition-duration: 0.3s;
+  border: 1px solid #ffffff00;
+  height: 100%;
+}
+.text h3 {
+  margin: 0;
+  padding-top: 210px;
+  font-size: 32px;
+  text-transform: capitalize;
+  font-family: "bevan";
+  letter-spacing: 2px;
+}
+.text p {
+  height: 36px;
+  width: 96px;
+  margin: 20px auto;
+  padding: 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "roboto";
+  letter-spacing: 2px;
+  border-bottom: 2px solid #ff8d00;
+}
+.text span {
+  margin-left: 4px;
+}
