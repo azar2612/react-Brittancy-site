@@ -1,0 +1,69 @@
+.price-section {
+  height: 660px;
+}
+.price-block {
+  height: 550px;
+  width: 1200px;
+  margin: auto;
+}
+.price-block div {
+  height: 150px;
+}
+.price-block h1 {
+  padding: 35px;
+  margin: 0;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Archivo Black";
+  letter-spacing: 1px;
+}
+
+.card-block {
+  height: 450px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+.cards {
+  height: 380px;
+  border: 3px solid #efefef;
+  padding: 0 30px;
+  transition-delay: 0.1s;
+  transition-duration: 0.5s;
+}
+.cards h4 {
+  padding: 60px 0 10px 0;
+  margin: 0;
+  text-align: center;
+  font-size: 26px;
+  font-family: "be vietnam";
+  text-transform: uppercase;
+  color: #ff8d00;
+  transition-delay: 0.1s;
+  transition-duration: 0.5s;
+}
+.cards div {
+  width: 110px;
+  height: 15px;
+  margin: 0 auto 50px auto;
+  border-bottom: 1px solid #eaeaea;
+  transition-delay: 0.1s;
+  transition-duration: 0.5s;
+}
+.cards p {
+  padding: 0;
+  margin: 22px 0;
+  font-size: 20px;
+  font-family: "poppins";
+  text-transform: capitalize;
+  transition-delay: 0.1s;
+  transition-duration: 0.5s;
+}
+.cards span {
+  float: right;
+}
+
+.cards:hover {
+  background: #ff8d00;
+  cursor: pointer;
+}
