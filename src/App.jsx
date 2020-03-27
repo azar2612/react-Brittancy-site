@@ -5,6 +5,7 @@ import Menu from "./menu/Menu";
 import Slider from "./slider/Slider";
 import Price from "./prices/Price";
 import About from "./about/About";
+import Picks from "./picks/Picks";
 
 const App = () => (
   <div className="brittancy">
@@ -13,6 +14,7 @@ const App = () => (
     <Slider />
     <Price />
     <About />
+    <Picks />
   </div>
 );
 export default App;
