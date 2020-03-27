@@ -1,0 +1,37 @@
+.footer-section {
+  height: 120px;
+  background: #191919;
+  color: white;
+}
+.footer-section div {
+  width: 1200px;
+  margin: auto;
+}
+.footer-section div h6 {
+  margin: 0;
+  padding: 75px 10px 0 30px;
+  font-family: "IBM Plex Sans";
+  font-weight: normal;
+  float: left;
+  font-size: 14px;
+}
+.footer-section div i {
+  margin: 0 5px;
+  padding: 75px 0 0 0;
+  float: left;
+  color: #4d4d4d;
+  font-size: 20px;
+}
+.footer-section div p {
+  margin: 0;
+  padding: 75px 0 0 0;
+  font-family: "IBM Plex Sans";
+  font-weight: normal;
+  float: left;
+  font-size: 13px;
+
+  float: right;
+}
+.footer-section div span {
+  text-decoration: underline;
+}
