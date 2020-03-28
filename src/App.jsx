@@ -8,6 +8,7 @@ import About from "./about/About";
 import Picks from "./picks/Picks";
 import Footer from "./footer/Footer";
 import Video from "./video/Video";
+import Profile from "./profile/Profile";
 
 const App = () => (
   <div className="brittancy">
@@ -16,6 +17,7 @@ const App = () => (
     <Slider />
     <Price />
     <Video />
+    <Profile />
     <About />
     <Picks />
     <Footer />
