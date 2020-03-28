@@ -7,6 +7,7 @@ import Price from "./prices/Price";
 import About from "./about/About";
 import Picks from "./picks/Picks";
 import Footer from "./footer/Footer";
+import Video from "./video/Video";
 
 const App = () => (
   <div className="brittancy">
@@ -14,6 +15,7 @@ const App = () => (
     <Menu list={["about me", "services", "gallery", "contacts", "pages"]} />
     <Slider />
     <Price />
+    <Video />
     <About />
     <Picks />
     <Footer />
