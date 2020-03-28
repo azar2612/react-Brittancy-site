@@ -9,6 +9,7 @@ import Picks from "./picks/Picks";
 import Footer from "./footer/Footer";
 import Video from "./video/Video";
 import Profile from "./profile/Profile";
+import Contact from "./contact/Contact";
 
 const App = () => (
   <div className="brittancy">
@@ -20,6 +21,7 @@ const App = () => (
     <Profile />
     <About />
     <Picks />
+    <Contact />
     <Footer />
   </div>
 );
